@@ -2,17 +2,17 @@ import tweepy
 import requests
 import time
 
-consumer_key = 'kla4c52rF8hRuSuibpuHxbTwi'
-consumer_secret = 'RmOpK1iGrH0j83xen4hcmRV7mg0of8yVrARrfzgqCIppdB5QpX'
-access_token = '1048234584796610560-GNysUfyTVsK6YXRiN8xkbTdcaAZqKp'
-access_token_secret = 'rmaYo8vjfjYRc43Y1v4AitESOFiMHxacsCGhgA8rF8aqe'
+consumer_key = 'YOUR TWITTER API KEY'
+consumer_secret = 'YOUR TWITTER API SECRET KEY'
+access_token = 'YOUR TWITTER ACCESS KEY'
+access_token_secret = 'YOUR TWITTER ACCESS SECRET'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 def get_crypto_assets():
-    url = "https://opensea13.p.rapidapi.com/assets/"
+    url = "<REPLACE URL FROM RAPID API OPENSEA URL>"
     
     querystring = {
         "collection_slug": "cryptopunks",
@@ -22,7 +22,7 @@ def get_crypto_assets():
     }
     
     headers = {
-        "X-RapidAPI-Key": "e564685815msh565ed390f3550b5p176e29jsn746da9abf34f",
+        "X-RapidAPI-Key": "<REPLACE YOUR API KEY From Rapid API OpenSea>",
         "X-RapidAPI-Host": "opensea13.p.rapidapi.com"
     }
     
