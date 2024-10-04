@@ -1,5 +1,5 @@
 
-# CrptoCAT NFT
+# CryptoCAT NFT
 
 CryptoCat NFT" is a specialized Twitter bot with a paw firmly placed in the rapidly evolving world of Non-Fungible Tokens (NFTs). Renowned for its swift and comprehensive coverage of the NFT landscape, CryptoCat NFT relies on the power of the OpenSea API through Rapid API to efficiently source and share the latest NFT updates.
 
